@@ -1,0 +1,144 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    position: relative;
+    top:6rem;
+    display: flex;
+    max-width: 38rem;;
+     max-height:28rem;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgb(219, 218, 218);
+}
+.left-section{
+    color: white;
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient( to bottom , hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.right-section{
+    display: flex; 
+    width:50%;
+    flex-direction: column;
+    padding: 2rem;
+    margin:0;
+}
+.anime{
+    display: flex;
+    width:10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom ,hsla(256, 72%, 46%, 1),hsla(256, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    color: hsl(241, 100%, 89%);
+}
+.res{
+    max-width: 2rem;
+    font-size: 5rem; 
+}
+.total{
+    max-width: fit-content;
+  position: relative;
+  top:3rem;
+  left: -0.6rem;
+  color:hsl(241, 100%, 89%);
+}
+.congra{
+    margin-top: 0.8rem;
+font-size: 1.5rem;
+}
+.info{
+    margin-top: 0.2rem;
+    color:hsl(241, 100%, 89%);
+    font-size: 1rem;
+    width:14.9rem;
+    height:4.5rem;
+}
+.summary{
+font-weight: 700;
+color:hsl(224, 30%, 27%);
+font-size: 1.5rem;
+margin-top: -1.7rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:0.8rem;
+    font-size: 0.7rem;
+}
+.button1,.button2,.button3,.button4{
+    display: flex;
+    align-items: center;
+    max-width: 18rem;
+    padding: 10px;
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.bold{
+    color: #303B5A;
+    font-weight: 800;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    color:#838898;
+    margin-left: 6.375rem;
+}
+.button1{
+    color: hsl(0, 100%, 67%);
+background-color:#FFF6F6 ;
+}
+.button2{
+    color: hsl(39, 100%, 56%);
+    background-color:#FFFBF4;
+}
+.button3{
+    color: hsl(166, 100%, 37%);
+    background-color: #F2FBF9;
+}
+.button4{
+    color: hsl(234, 85%, 45%);
+    background-color:#F3F4FD;
+}
+.continue {
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1rem;
+    background: hsl(224, 30%, 27%);
+    cursor: pointer;
+    transition: background 0.15s ease-in-out;
+}
+.text{
+    margin-right: 0.5rem;
+}
+.continue:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.buttons svg{
+margin-right: 4px;
+}
+@media screen and (max-width: 600px) {
+   .container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:15rem;
+    box-shadow: none;
+   }
+  }
